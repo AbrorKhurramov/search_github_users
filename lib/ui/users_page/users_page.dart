@@ -40,7 +40,7 @@ class UsersPage extends GetView<MainController> {
                             controller.setUserIndex(index);
                             await controller.getUser(index);
                             await controller.getUserRepos();
-                            Get.to(() => const UserDetailPage());
+                            Get.toNamed("/user_detail");
                           },
                           imageUrl: controller.users[index].avatarUrl,
                           name: controller.users[index].login)),

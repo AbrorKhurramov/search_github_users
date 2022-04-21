@@ -55,7 +55,7 @@ int userIndex=0;
 
       pagesCount = (count * 0.1).toInt() + 1;
 
-      Get.to(() => const UsersPage());
+      Get.toNamed("/user");
     }
   }
 
