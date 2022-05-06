@@ -6,7 +6,7 @@ import 'package:search_github_users/controller/main_controller.dart';
 import '../core/theme/app_colors.dart';
 
 
-
+//search page
 
 class SearchPage extends GetView<MainController> {
   const SearchPage({Key? key}) : super(key: key);
