@@ -7,6 +7,7 @@ import 'package:search_github_users/ui/users_page/users_page.dart';
 
 import '../data/models/user_repos_model.dart';
 import '../data/models/users_model.dart';
+import '../routes/app_routes.dart';
 
 class MainController extends BaseController {
   int page = 1;
@@ -55,7 +56,7 @@ int userIndex=0;
 
       pagesCount = (count * 0.1).toInt() + 1;
 
-      Get.toNamed("/user");
+      Get.toNamed(Routes.USER);
     }
   }
 

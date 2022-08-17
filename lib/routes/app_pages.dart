@@ -8,13 +8,18 @@ import 'app_routes.dart';
 
 class AppPages {
   static final pages = [
-    GetPage(name: Routes.MAIN, page: () => const SearchPage(), binding: MainBindings()),
-    GetPage(name: Routes.USER, page: () => const UsersPage(), binding: MainBindings()),
+    GetPage(
+        name: Routes.MAIN,
+        page: () => const SearchPage(),
+        binding: MainBindings()),
+    GetPage(
+        name: Routes.USER,
+        page: () => const UsersPage(),
+        binding: MainBindings()),
     GetPage(
       name: Routes.USER_DETAIL,
       page: () => const UserDetailPage(),
       binding: MainBindings(),
     ),
-
   ];
 }
